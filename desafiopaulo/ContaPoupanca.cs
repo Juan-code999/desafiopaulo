@@ -34,6 +34,11 @@ namespace desafiopaulo
         {
             Console.WriteLine($"Conta Poupança - Titular: {Titular}, Saldo: R$ {Saldo}, Taxa de Juros: {TaxaDeJuros * 100}%");
         }
+
+        internal void Depositar()
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }
